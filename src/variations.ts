@@ -8,8 +8,9 @@ export function getFirstChar(name: string): string {
   return name[0];
 }
 
-export function getLastChar(name: string) {
+export function getLastChar(name: string): string {
   // last character of: name
+  return name[name.length - 1];
 }
 
 export function getLower(name: string) {
