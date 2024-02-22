@@ -18,6 +18,7 @@ export function getLower(name: string): string {
   return name.toLowerCase();
 }
 
-export function getUpper(name: string) {
+export function getUpper(name: string): string {
   // name all in upper case (example: "abc" becomes "ABC")
+  return name.toUpperCase();
 }
