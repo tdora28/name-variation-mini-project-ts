@@ -3,8 +3,9 @@ export function getNumberOfChars(name: string): number {
   return name.length;
 }
 
-export function getFirstChar(name: string) {
+export function getFirstChar(name: string): string {
   // first character of: name
+  return name[0];
 }
 
 export function getLastChar(name: string) {
