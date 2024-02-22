@@ -13,8 +13,9 @@ export function getLastChar(name: string): string {
   return name[name.length - 1];
 }
 
-export function getLower(name: string) {
+export function getLower(name: string): string {
   // name all in lower case (example: "ABC" becomes "abc")
+  return name.toLowerCase();
 }
 
 export function getUpper(name: string) {
